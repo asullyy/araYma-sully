@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ad63265970c2224ca7851a1f3883f75, type: 3}
+  m_Name: Pocao De Vida
+  m_EditorClassIdentifier: 
+  itemName: Pocao de vida
+  itemDescription: Item que recupera vida
+  itemImage: {fileID: -933708202724517508, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
+  numberHeld: 1
+  usable: 1
+  unique: 0
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -1445597372925694907, guid: 7a813b2d52396624b9debe50b4a89eed, type: 3}
+        m_TargetAssemblyTypeName: HealthReaction, Assembly-CSharp
+        m_MethodName: Use
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
